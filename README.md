@@ -1,5 +1,13 @@
 # Landing Page Project For Udacity
 
+## Updated
+
+- [x] Added ```preventDefault()```.
+- [x] added smooth behavior to the scrolling function.
+- [x] Added flex wrapping to navbar menu list and changed items font size to work on all browsers.
+
+---
+
 ## Table of Contents
 
   - [Description](#description)
