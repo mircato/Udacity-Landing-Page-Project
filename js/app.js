@@ -19,10 +19,11 @@ function navBuilder() {
 // Scroll to anchor ID using scrollTO event
 function scrollToEvent() {
   navigationBarLinks.addEventListener("click", function (event) {
+    event.preventDefault();
     const setSectionActive = document.querySelector(
       "#" + event.target.dataset.nav
     );
-    setSectionActive.scrollIntoView();
+    setSectionActive.scrollIntoView({ behavior: "smooth" });
   });
 }
 
