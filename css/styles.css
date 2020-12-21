@@ -87,11 +87,13 @@ section {
     margin: 0;
     text-align: right;
     display:flex;
+    flex-wrap: wrap;
 }
 
 .navbar__menu li {
     display: inline-block;
     cursor: pointer;
+    font-size: .7rem;
 }
 #navbar__list li:hover{
     color:red;
